@@ -8,7 +8,7 @@ spec:
   type: NodePort
   ports:
     - port: 3000
-      targetPort: 2025
+      targetPort: 3000
       protocol: TCP
   selector:
     app: nodejs
