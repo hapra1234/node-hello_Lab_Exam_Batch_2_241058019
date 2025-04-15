@@ -15,7 +15,7 @@ spec:
         app: nodejs
     spec:
       containers:
-      - name: node_019
+      - name: node019
         image: hapra123/node_019:latest
         ports:
         - containerPort: 3000 
