@@ -6,9 +6,10 @@ metadata:
   name: nodejs
 spec:
   type: NodePort
-  ports:
-    - port: 3000            
-      targetPort: 3000    
-      protocol: TCP
   selector:
     app: nodejs
+  ports:
+    - port: 3000           
+      targetPort: 3000      
+      nodePort: 32025       
+      protocol: TCP
