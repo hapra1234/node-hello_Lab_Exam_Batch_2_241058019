@@ -18,4 +18,4 @@ spec:
       - name: node_019
         image: hapra123/node_019:latest
         ports:
-        - containerPort: 80 
+        - containerPort: 3000 
